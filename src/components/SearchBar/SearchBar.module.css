@@ -1,0 +1,26 @@
+.mainSearch {
+  height: 40px;
+  max-width: 500px;
+  border-radius: 30px !important;
+}
+.mainSearch input {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.mainSearch input:focus {
+  border: 1px solid #dee2e6 !important;
+  box-shadow: none !important;
+}
+
+.mainSearch button {
+  background-color: var(--primaryColor) !important;
+  color: var(--whiteColor) !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainSearch button:focus {
+  border-color: var(--primaryColor) !important;
+}

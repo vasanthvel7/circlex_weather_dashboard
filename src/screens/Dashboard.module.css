@@ -1,0 +1,29 @@
+.rootSec {
+  max-width: 95%;
+  margin: 20px auto;
+  margin-top: 30px;
+  padding: 10px 30px;
+  padding-top: 30px !important;
+  border-radius: 20px;
+  background-color: var(--background);
+  -webkit-box-shadow: -4px 13px 21px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: -4px 13px 21px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: -4px 13px 21px -8px rgba(0, 0, 0, 0.36);
+}
+.headerSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerSec h2 {
+  font-family: "Nunito-Bold";
+  font-size: var(--mdText);
+}
+.headerSec p {
+  font-family: "Nunito-Regular";
+}
+.searchbarSec {
+  display: flex;
+  justify-content: flex-end;
+}

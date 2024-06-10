@@ -1,0 +1,61 @@
+.mainSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leftSec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: row;
+}
+.leftSec h1 {
+  font-size: var(--xlText);
+  font-family: "Nunito-Bold";
+  padding: 15px;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+.celciusSec {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.celciusSec p {
+  margin-bottom: 0px !important;
+  font-size: var(--textXl);
+  font-family: "Nunito-Bold";
+}
+.celciusSec span {
+  font-family: "Nunito-Regular";
+}
+.rightSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  min-width: 350px;
+}
+.rightSec img {
+  height: 150px;
+  width: 150px;
+}
+.rightSec p {
+  font-family: "Nunito-Medium";
+  font-size: var(--textMd);
+  margin-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+}
+.rightSec p span {
+  margin-right: 5px;
+}
+.rightSec p:last-child {
+  margin-bottom: 0px !important;
+}

@@ -1,0 +1,32 @@
+.forcastContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+  padding: 5px 50px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.singleForecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 200px;
+}
+.singleForecast img {
+  height: 50px;
+}
+.singleForecast p {
+  margin-bottom: 0px !important;
+  font-family: "Nunito-Medium";
+  font-size: var(--textSm);
+}
+.singleForecast .date {
+  padding: 10px 0;
+}
+.singleForecast .celcius {
+  padding-top: 20px;
+}
