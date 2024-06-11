@@ -1,26 +1,54 @@
 .mainSearch {
-  height: 40px;
+  height: 45px;
   max-width: 500px;
   border-radius: 30px !important;
+  background-color: var(--dimLightBg);
+  border: 1px solid var(--dimLightBg) !important;
+  padding: 3px;
 }
 .mainSearch input {
   border-top-left-radius: 10px !important;
   border-bottom-left-radius: 10px !important;
+  background: transparent !important;
+  border: transparent !important;
 }
 .mainSearch input:focus {
-  border: 1px solid #dee2e6 !important;
+  border: transparent !important;
   box-shadow: none !important;
 }
 
 .mainSearch button {
-  background-color: var(--primaryColor) !important;
+  background: var(--primaryColor) !important;
   color: var(--whiteColor) !important;
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
+  border-radius: 30px !important;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-color: transparent !important;
 }
 .mainSearch button:focus {
-  border-color: var(--primaryColor) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.currentlocationSec {
+  height: 45px;
+  width: 45px;
+  border-radius: 30px !important;
+  margin: 0 10px;
+  background: var(--primaryColor) !important;
+  color: var(--whiteColor) !important;
+  border-color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px !important;
+}
+.currentlocationSec span {
+  margin-top: 2px;
+}
+
+.currentlocationSec:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
 }

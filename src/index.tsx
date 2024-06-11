@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { store } from "./store/StoreConfig";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Toaster } from "react-hot-toast";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -14,6 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <Provider store={store}>
     <App />
+    <Toaster />
   </Provider>
 );
 

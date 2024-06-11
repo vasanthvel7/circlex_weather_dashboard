@@ -1,3 +1,6 @@
+import { WeatherBysearchKeyServiceType } from "../services/servicetypes";
+
 export type MainContextProps = {
-    getWeatherData:(query:string)=>void
-}
+  getWeatherData: (value: WeatherBysearchKeyServiceType) => void;
+  getCurrentLocation: () => void;
+};

@@ -9,6 +9,7 @@
   -webkit-box-shadow: -4px 13px 21px -8px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: -4px 13px 21px -8px rgba(0, 0, 0, 0.36);
   box-shadow: -4px 13px 21px -8px rgba(0, 0, 0, 0.36);
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
 }
 .headerSec {
   display: flex;
@@ -26,4 +27,20 @@
 .searchbarSec {
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .rootSec {
+    margin: 10px auto;
+    margin-top: 15px;
+    padding: 5px 10px;
+    padding-top: 15px !important;
+  }
+  .headerSec {
+    flex-direction: column-reverse;
+  }
+  .headerSec h2,
+  .headerSec p {
+    text-align: center;
+  }
 }

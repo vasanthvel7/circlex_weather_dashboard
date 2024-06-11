@@ -18,6 +18,9 @@
   padding-left: 0 !important;
   margin: 0 !important;
 }
+.loadingSec h1 {
+  width: 100%;
+}
 .celciusSec {
   padding: 20px;
   display: flex;
@@ -39,12 +42,11 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 20px;
   min-width: 350px;
 }
 .rightSec img {
-  height: 150px;
-  width: 150px;
+  height: 220px;
+  width: 220px;
 }
 .rightSec p {
   font-family: "Nunito-Medium";
@@ -58,4 +60,42 @@
 }
 .rightSec p:last-child {
   margin-bottom: 0px !important;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .rightSec img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSec {
+    padding: 30px 0;
+  }
+  .leftSec {
+    justify-content: flex-start;
+    padding: 15px;
+  }
+  .leftSec h1 {
+    font-size: var(--mdText);
+    padding-right: 5px !important;
+  }
+  .celciusSec {
+    padding: 5px !important;
+  }
+  .celciusSec p {
+    font-size: var(--textSm);
+  }
+  .rightSec {
+    min-width: 200px;
+    margin: auto;
+  }
+  .rightSec img {
+    height: 80px;
+    width: 80px;
+  }
+  .rightSec p {
+    font-size: var(--textXs);
+  }
 }

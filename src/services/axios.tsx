@@ -15,14 +15,4 @@ instance.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-instance.interceptors.response.use(
-  async (response) => {
-    if (response.data.status === -1) {
-    }
-
-    return response;
-  },
-  (error) => Promise.reject(error)
-);
-
 export default instance;

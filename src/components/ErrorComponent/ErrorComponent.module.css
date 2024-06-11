@@ -1,0 +1,44 @@
+.errorRootSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.errorRootSec img,
+.forcasterrorRootSec img {
+  max-height: 200px;
+  max-width: 200px;
+}
+.errorRootSec p,
+.forcasterrorRootSec p {
+  max-width: 800px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0px !important;
+  font-family: "Nunito-Bold";
+  font-size: var(--textXl);
+}
+.forcasterrorRootSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0px auto;
+  margin-bottom: 20px !important;
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: #bce7fc;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0);
+}
+
+.forcasterrorRootSec img {
+  margin-right: 20px;
+  max-height: 100px;
+  max-width: 100px;
+}
+.forcasterrorRootSec p {
+  text-align: start !important;
+  padding-top: 0px !important;
+}
